@@ -2,7 +2,8 @@
 SpringMVC Web Application
 
 # Login URL
-http://localhost:8080/SpringMVCApp/
+http://localhost:8080/SpringMVCApp/ 
+
 http://localhost:8080/SpringMVCApp/login
 
 # Username
