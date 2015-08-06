@@ -16,7 +16,7 @@ import com.snsystems.formBean.UserForm;
 @RequestMapping("/")
 public class HomepageController {
 
-	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	@RequestMapping(value = "index", method = RequestMethod.GET)
 	public String index(@ModelAttribute UserForm userForm, ModelMap model) {
 		model.addAttribute("message", "Hello Spring MVC Framework!");
 		return "login";
